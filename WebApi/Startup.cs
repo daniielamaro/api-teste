@@ -45,8 +45,6 @@ namespace WebApi
 
             app.UseRouting();
 
-            app.UseAuthentication();
-
             app.UseSwagger();
             app.UseSwaggerUI(c => {
                 c.DocumentTitle = "Api Teste";
