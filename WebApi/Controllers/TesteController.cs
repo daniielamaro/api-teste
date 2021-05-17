@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/request/[controller]")]
     public class TesteController : ControllerBase
     {
 
