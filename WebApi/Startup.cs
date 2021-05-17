@@ -52,7 +52,7 @@ namespace WebApi
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UsePathBase("api");
+            app.UsePathBase("/api/request");
 
             app.UseCors("CorsPolicy");
 
