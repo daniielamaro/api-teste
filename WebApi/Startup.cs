@@ -39,7 +39,7 @@ namespace WebApi
                     new OpenApiInfo
                     {
                         Title = "Api Teste",
-                        Version = "v1"
+                        Version = "3.0.0"
                     });
             });
         }
