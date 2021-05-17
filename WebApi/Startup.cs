@@ -62,7 +62,7 @@ namespace WebApi
             app.UseSwaggerUI(c => {
                 c.DocumentTitle = "Api Teste";
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api Teste");
-                c.RoutePrefix = "docs";
+                c.RoutePrefix = "api/docs";
             });
 
             app.UseEndpoints(endpoints =>
